@@ -13,8 +13,13 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('enviou');
 
+    const todo = {
+      id: Math.random,
+      title,
+      time,
+      done:false
+    }
     console.log(todo)
 
     setTime('')
@@ -36,6 +41,14 @@ function App() {
               placeholder='Título da tarefa'
               onChange={(e) => setTitle(e.target.value)}
               value={title || ''}
+              required
+            />
+             <input
+              type='number'
+              name='time'
+              placeholder='Título da tarefa'
+              onChange={(e) => setTime(e.target.value)}
+              value={time || ''}
               required
             />
           </div>
