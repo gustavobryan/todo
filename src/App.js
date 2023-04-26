@@ -18,7 +18,7 @@ function App() {
       id: Math.random,
       title,
       time,
-      done:false
+      done: false
     }
     console.log(todo)
 
