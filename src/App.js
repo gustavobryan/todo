@@ -1,6 +1,6 @@
 import './App.css';
 import Banner from './Components/Banner';
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import { BsTrash, BsBookmarkCheck, BsBookmarkCheckFill } from 'react-icons/bs';
 
 const API = "http://localhost:5000";
