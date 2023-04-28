@@ -3,7 +3,7 @@ import Banner from './Components/Banner';
 import { useState, useEffect } from 'react';
 import { BsTrash, BsBookmarkCheck, BsBookmarkCheckFill } from 'react-icons/bs';
 
-const API = "http://localhost:5000";
+const API = "https://json-todo.vercel.app";
 
 function App() {
   const [title, setTitle] = useState('')
